@@ -1,0 +1,118 @@
+
+/*
+ * File: style.css
+ * Location: public/assets/css/
+ *
+ * Purpose:
+ * Provides consistent styling across our furniture store.
+ *
+ * Architecture:
+ * Presentation Layer (Modular MVC)
+ *
+ * Week 2:
+ * Establish the basic appearance of our application.
+ *
+ * Future Development:
+ * Add product cards, images, responsive product grids,
+ * and interactive shopping cart elements.
+ */
+
+/* General website styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f3ef;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Shared website header */
+header {
+    background-color: #263b35;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main navigation */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content container */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    min-height: 400px;
+}
+
+/* Page section headings */
+h2 {
+    color: #263b35;
+    border-bottom: 2px solid #d5c7b2;
+    padding-bottom: 10px;
+}
+
+/* Product, cart, and checkout content areas */
+.product-list,
+.cart-items,
+.cart-summary,
+.checkout-summary,
+.checkout-actions {
+    background-color: #f8f7f4;
+    border: 1px solid #e3ded5;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Links within the main content area */
+main a {
+    display: inline-block;
+    background-color: #263b35;
+    color: white;
+    padding: 10px 18px;
+    margin: 8px 8px 8px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+main a:hover {
+    background-color: #426459;
+}
+
+/* Shared website footer */
+footer {
+    background-color: #263b35;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 600px) {
+    main {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}

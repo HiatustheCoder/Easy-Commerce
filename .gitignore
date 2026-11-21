@@ -1,0 +1,25 @@
+# PHP E-Commerce Project
+# Purpose: Exclude local configuration, sensitive files,
+# dependencies, and temporary development files.
+
+# Local database configuration
+/ecommerce-store/config/db.php
+
+# Environment files containing credentials
+.env
+.env.*
+!.env.example
+
+# PHP dependencies
+vendor/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
